@@ -1,0 +1,20 @@
+name: bajeti_master
+description: A Flutter app for tracking personal and business expenses.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.1 # For state management if needed
+  charts_flutter: ^0.12.0 # For reports and graphs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
